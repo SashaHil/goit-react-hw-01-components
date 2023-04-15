@@ -38,9 +38,7 @@ export const Status = styled.span`
 
   border-radius: 50%;
 
-  background-color: ${p => {
-    return p.isOnline ? 'green' : 'red';
-  }};
+  background-color: ${p => (p.isOnline ? 'green' : 'red')};
 `;
 
 export const Image = styled.img`

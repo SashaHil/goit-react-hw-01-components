@@ -39,9 +39,7 @@ export const Item = styled.li`
 
   padding: 10px 0;
 
-  color: ${p => {
-    return p.theme.colors.white;
-  }};
+  color: ${p => p.theme.colors.white};
 
   text-align: center;
 

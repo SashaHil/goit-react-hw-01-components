@@ -12,9 +12,7 @@ export const Card = styled.div`
 
   padding: 30px 0;
 
-  background-color: ${p => {
-    return p.theme.colors.white;
-  }};
+  background-color: ${p => p.theme.colors.white};
 
   border-radius: 10px;
 
@@ -50,17 +48,13 @@ export const Name = styled.div`
 export const Tag = styled.div`
   font-size: 16px;
 
-  color: ${p => {
-    return p.theme.colors.grey;
-  }};
+  color: ${p => p.theme.colors.grey};
 `;
 
 export const Location = styled.div`
   font-size: 16px;
 
-  color: ${p => {
-    return p.theme.colors.grey;
-  }};
+  color: ${p => p.theme.colors.grey};
 `;
 
 export const Stats = styled.ul`
@@ -72,9 +66,7 @@ export const Stats = styled.ul`
   font-size: 16px;
   font-weight: 700;
 
-  color: ${p => {
-    return p.theme.colors.grey;
-  }};
+  color: ${p => p.theme.colors.grey};
 `;
 
 export const StatItem = styled.li`
@@ -92,13 +84,9 @@ export const StatItem = styled.li`
 export const Label = styled.span`
   text-transform: uppercase;
 
-  color: ${p => {
-    return p.theme.colors.grey;
-  }};
+  color: ${p => p.theme.colors.grey};
 `;
 
 export const Quantity = styled.span`
-  color:   color: ${p => {
-    return p.theme.colors.black;
-  }};
+  color:   color: ${p => p.theme.colors.black};
 `;

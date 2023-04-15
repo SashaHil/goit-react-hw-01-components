@@ -7,9 +7,7 @@ export const TransactionTable = styled.table`
 `;
 
 export const TableHead = styled.thead`
-  background-color: ${p => {
-    return p.theme.colors.blue;
-  }};
+  background-color: ${p => p.theme.colors.blue};
 
   color: ${p => {
     return p.theme.colors.white;
@@ -18,9 +16,7 @@ export const TableHead = styled.thead`
 
 export const TableRow = styled.tr`
   &:nth-child(even) {
-    background-color: ${p => {
-      return p.theme.colors.whiteGrey;
-    }};
+    background-color: ${p => p.theme.colors.whiteGrey};
   }
 `;
 
@@ -35,7 +31,5 @@ export const TableData = styled.td`
 
   text-align: center;
 
-  color: ${p => {
-    return p.theme.colors.grey;
-  }};
+  color: ${p => p.theme.colors.grey};
 `;

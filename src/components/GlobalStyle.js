@@ -1,4 +1,7 @@
-@import-normalize; /* bring in normalize.css styles */
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyle = createGlobalStyle`
+@import-normalize; 
 
 body {
   margin: 0;
@@ -32,3 +35,4 @@ ul {
   padding: 0;
   margin: 0;
 }
+`;
