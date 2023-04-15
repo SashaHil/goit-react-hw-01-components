@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 import { App } from 'components/App';
 import { GlobalStyle } from 'components/GlobalStyle';
-import { Layout } from 'components/Layout/Layout';
 
 const theme = {
   colors: {
@@ -16,10 +15,10 @@ const theme = {
 };
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Layout>
+  <React.StrictMode>
     <ThemeProvider theme={theme}>
       <App />
       <GlobalStyle />
     </ThemeProvider>
-  </Layout>
+  </React.StrictMode>
 );
