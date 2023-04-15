@@ -9,7 +9,7 @@ export const StatisticsSection = styled.section`
   margin: 0 auto;
   margin-bottom: 20px;
 
-  width: 340px;
+  width: 360px;
 
   padding: 20px 10px;
 

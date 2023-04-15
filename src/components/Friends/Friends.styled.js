@@ -10,8 +10,6 @@ export const FreindsList = styled.ul`
 
   margin: 0 auto;
   margin-bottom: 20px;
-
-  padding: 20px;
 `;
 
 export const FreindItem = styled.li`
