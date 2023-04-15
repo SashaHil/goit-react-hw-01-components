@@ -1,18 +1,6 @@
 import styled from 'styled-components';
 
-export const FreindsList = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: 5px;
-
-  max-width: 360px;
-
-  margin: 0 auto;
-  margin-bottom: 20px;
-`;
-
-export const FreindItem = styled.li`
+export const FriendItem = styled.li`
   display: flex;
   align-items: center;
   gap: 50px;
